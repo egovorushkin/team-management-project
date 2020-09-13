@@ -1,0 +1,17 @@
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th>Name</th>
+            <th>Phone Number</th>
+            <th>Car</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr *ngFor="let tempEmployee of employees">
+            <td class="align-middle">{{ tempEmployee.name }}</td>
+            <td class="align-middle">{{ tempEmployee.phone }}</td>
+            <td class="align-middle">{{ tempEmployee.car }}</td>
+        </tr>
+    </tbody>
+</table>
